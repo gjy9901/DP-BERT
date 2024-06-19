@@ -111,7 +111,7 @@ class Identity(torch.nn.Module):
 
         return x
 
-df = pd.read_csv('/home/DL_bin.csv')
+df = pd.read_csv('/home/Depression-20_bin_test.csv')
 
 for column in df.columns[:-1]:
     df[column] = df[column].apply(lambda x: x + 1 if x != 0 else x)
