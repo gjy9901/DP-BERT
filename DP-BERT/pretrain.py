@@ -118,7 +118,7 @@ def train_bert(train_iter,max_len,net, loss, vocab, device, num_epochs):
 if __name__ == '__main__':   
     max_len =  24447
     vocab=getData.getVocab(20001)
-    dataset ='/home/pretrain.csv'
+    dataset ='/home/Psychiatric disorder-64_bin_test.csv'
     net = performer.PerformerLM(
         num_tokens = 20002,        #The size of the token embedding
         dim = 200,                 #embedding dim
