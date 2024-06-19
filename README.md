@@ -14,11 +14,9 @@ In recent years, the increasing number of depression patients and growing awaren
 - einops==0.7.0
 
 ## Data
-The raw data can be retrieved from the GEO database. Here, we provide the merged dataset, which can be found in the data folder.
-- `./data/Psychiatric disorder-64.csv`: Psychiatric Disorder data used for the pretraining phase.
-- `./data/Depression-20.csv`: Dataset including only samples with Depression.
-- `./data/Depression-blood.csv`: All Depression samples sourced from blood.
-- `./data/Depression-brain.csv`: All Depression samples sourced from the brain.
+The raw data can be retrieved from the GEO database. Here we provide the test datasets used for both the pretraining and fine-tuning stages. These datasets have been preprocessed and binned.
+- `./data/Psychiatric disorder-64_bin_test.csv`: Psychiatric Disorder data used for the pretraining phase.
+- `./data/Depression-20_bin_test.csv`: Dataset including only samples with Depression.
 
 ## Usage
 ### 1. Data Preprocessing
